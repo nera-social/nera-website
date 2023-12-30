@@ -81,7 +81,7 @@
 .icon {
   width: 64px; /* Set the width of the icon */
   height: 64px; /* Set the height of the icon */
-  margin-left: 10%; /* Space between icon and navigation */
+  margin-left: 5%; /* Space between icon and navigation */
 }
 
 /* Additional styles for navigation items */
@@ -108,7 +108,7 @@ body {
 }
 
 .Iam {
-  font: normal 40px/50px Montserrat, sans-serif;
+  font: normal 25px/50px Montserrat, sans-serif;
   padding: -50px;
   color: #ffffff;
 
@@ -138,7 +138,6 @@ body {
   text-align: center;
   border: 1px solid #3f3939;
   font-size: 15px;
-  margin-left: 65%;
   border-radius: 25px;
   text-align: center;
   height: 20px;

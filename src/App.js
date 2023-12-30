@@ -17,9 +17,9 @@ function App() {
     {/* <!-- Your header content --> */}
     <div class="header-content">
       <img class="icon" src={iconImage} alt="Icon" />
-      <div className="div-button" role="button" tabIndex={0}>
+      {/* <div className="div-button" role="button" tabIndex={0}>
       Join Us →
-    </div>     
+    </div>      */}
      <nav>
         <ul>
           {/* <!-- Your navigation items --> */}
