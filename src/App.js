@@ -27,16 +27,6 @@ function App() {
       </nav>
     </div>
   </header>
-
-
-
-    
-
-
-
-
-  
-
 <body>
 <div class="Iam">
 <b>
