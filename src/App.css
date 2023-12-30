@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.gradient_background {
+  height: 100vh; /* Set the height to cover the full viewport height */
+  background: linear-gradient(to bottom, #00000F, #0d0117, #040225, #00000F, #0d0117, #120220); /* Example gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
@@ -21,14 +32,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
 .App-link {
@@ -42,4 +52,46 @@
   to {
     transform: rotate(180deg);
   }
+}
+
+.transparent-header {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif; /* Open Sans font */
+  font-weight: bold; /* Bold text */
+  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px; /* Larger font size for the title */
+  margin-right: 10px; /* Space between title and icon */
+}
+
+.icon {
+  width: 32px; /* Set the width of the icon */
+  height: 32px; /* Set the height of the icon */
+  margin-right: 10px; /* Space between icon and navigation */
+}
+
+/* Additional styles for navigation items */
+.transparent-header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.transparent-header nav ul li {
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
 }
