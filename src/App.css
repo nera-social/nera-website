@@ -108,7 +108,7 @@ body {
 }
 
 .Iam {
-  font: normal 25px/50px Montserrat, sans-serif;
+  font: normal 20px/50px Montserrat, sans-serif;
   padding: -50px;
   color: #ffffff;
 
@@ -138,6 +138,7 @@ body {
   text-align: center;
   border: 1px solid #3f3939;
   font-size: 15px;
+  margin-left: 35%;
   border-radius: 25px;
   text-align: center;
   height: 20px;
@@ -162,11 +163,11 @@ body {
 
 
 /*animation*/
--webkit-animation:move 6s;
-   -moz-animation:move 6s;
-    -ms-animation:move 6s;
-     -o-animation:move 6s;
-        animation:move 6s;
+-webkit-animation:move 5s;
+   -moz-animation:move 5s;
+    -ms-animation:move 5s;
+     -o-animation:move 5s;
+        animation:move 5s;
 /*animation-iteration-count*/
 -webkit-animation-iteration-count:infinite;
    -moz-animation-iteration-count:infinite;
