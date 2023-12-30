@@ -1,14 +1,8 @@
-import logo from './images/logo512.png';
 import './App.css';
-import { useCallback } from "react";
 import iconImage from './images/logo512.png'; // Import your icon image
 
 function App() {
-
-
-
   return (
-    <div id="particles-js">
 <div class="gradient_background">
 
   <p style = {{fontSize: 15}}>
@@ -26,7 +20,6 @@ function App() {
       </nav>
     </div>
   </header>
-</div>
 </div>
   );
 }
