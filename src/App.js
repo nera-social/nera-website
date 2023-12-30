@@ -11,12 +11,15 @@ function App() {
 
   <header class="transparent-header">
   <div>
+ 
+
     <p style = {{fontSize: 25}}>
     </p>
   </div>
     {/* <!-- Your header content --> */}
     <div class="header-content">
       <img class="icon" src={iconImage} alt="Icon" />
+     
       {/* <div className="div-button" role="button" tabIndex={0}>
       Join Us →
     </div>      */}
@@ -33,23 +36,37 @@ function App() {
 
 <div class="innerIam">
 
-We are Jive, a dating platform.<br />
-We are a cultural movement.<br />
-We are a tech company.<br />
-We are fostering real world connections.<br />
-We are going to help you fall in love. ❤️<br />
+ We are a dating platform. <br />
+ We are a cultural movement. <br />
+ We are a tech company. <br />
+ We are fostering real world connection. <br />
+ We are Jive. <br />
 </div>
 </b>
+<div>
+ 
+<div class="button-wrapper">
+  <button class="button" type="button"></button>
+  <div class="button-bg"></div>
+  <div>
+  {/* <div class = "div-button">Beta Waitlist →</div> */}
+  </div>
 
 </div>
-<p>
-</p>
+
+  </div>
+
+</div>
+
 
 </body>
 
 
 
+
+
 </div>
+
 
 
 
