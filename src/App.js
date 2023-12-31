@@ -11,15 +11,12 @@ function App() {
 
   <header class="transparent-header">
   <div>
- 
-
     <p style = {{fontSize: 25}}>
     </p>
   </div>
     {/* <!-- Your header content --> */}
     <div class="header-content">
       <img class="icon" src={iconImage} alt="Icon" />
-     
       {/* <div className="div-button" role="button" tabIndex={0}>
       Join Us →
     </div>      */}
@@ -41,32 +38,19 @@ function App() {
  We are a tech company. <br />
  We are fostering real world connection. <br />
  We are Jive. <br />
+<img class="icon" src={iconImage} alt="Icon" />
 </div>
 </b>
-<div>
- 
-<div class="button-wrapper">
-  <button class="button" type="button"></button>
-  <div class="button-bg"></div>
-  <div>
-  {/* <div class = "div-button">Beta Waitlist →</div> */}
-  </div>
 
 </div>
-
-  </div>
-
-</div>
-
+<p>
+</p>
 
 </body>
 
 
 
-
-
 </div>
-
 
 
 
