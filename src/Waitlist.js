@@ -1,6 +1,7 @@
 import React from 'react'
 import iconImage from './images/logo512.png';
 import Helmet from "react-helmet";
+import NavTabs from './NavTabs';
 
 export default function Waitlist() {
     return (
@@ -19,9 +20,7 @@ export default function Waitlist() {
             {/* <!-- Your header content --> */}
             <div class="header-content">
               <img class="icon" src={iconImage} alt="Icon" />
-              {/* <div className="div-button" role="button" tabIndex={0}>
-              Join Us →
-            </div>      */}
+              <NavTabs tab={2}/>
              <nav>
                 <ul>
                   {/* <!-- Your navigation items --> */}

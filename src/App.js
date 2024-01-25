@@ -3,6 +3,7 @@ import React from 'react';
 import iconImage from './images/logo512.png';
 import {useNavigate} from  'react-router-dom';
 import { Button } from 'react-bootstrap';
+import NavTabs from './NavTabs';
 
 function App() {
 
@@ -27,9 +28,10 @@ function App() {
             {/* <!-- Your header content --> */}
             <div class="header-content">
               <img class="icon" src={iconImage} alt="Icon" />
-              <div className="div-button" tabIndex={0} role='button' onClick={routeChange} style={{position: "absolute", right: 20}}>
+              {/* <div className="div-button" tabIndex={0} role='button' onClick={routeChange} style={{position: "absolute", right: 20}}>
                 Waitlist
-              </div>
+              </div> */}
+              <NavTabs tab={0}/>
              <nav>
                 <ul>
                   {/* <!-- Your navigation items --> */}
