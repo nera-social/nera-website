@@ -65,7 +65,7 @@ export default function NavTabs(props) {
                 textColor="#FFFFFF"
                 >
                   <LinkTab label="Home" href="/"/>
-                  <LinkTab label="About Us" href="/about" />
+                  {/* <LinkTab label="About Us" href="/about" /> */}
                   <LinkTab label="Waitlist" href="/waitlist"/>
                 </Tabs>
               </Box>

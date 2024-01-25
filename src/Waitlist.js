@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import NavTabs from './NavTabs';
 
 export default function Waitlist() {
+
     return (
         <>
         <div class="gradient_background">
@@ -20,7 +21,7 @@ export default function Waitlist() {
             {/* <!-- Your header content --> */}
             <div class="header-content">
               <img class="icon" src={iconImage} alt="Icon" />
-              <NavTabs tab={2}/>
+              <NavTabs tab={1}/>
              <nav>
                 <ul>
                   {/* <!-- Your navigation items --> */}
